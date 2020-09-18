@@ -75,6 +75,11 @@ class SpecsList extends Component {
             <label htmlFor='filter'>
               <i className='fas fa-search' />
             </label>
+            {/* This is where the change needs to happen.
+            Either add a custom component that handles the 
+            search capability as per the ask in the issue, 
+            or update the way that this input is handling 
+            the filters */}
             <input
               id='filter'
               className='filter'
